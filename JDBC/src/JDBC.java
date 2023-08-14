@@ -20,6 +20,8 @@ public class JDBC {
                 System.out.println(name + " "+age);
             }
 
+            connection.close();
+
 
         } catch (Exception e) {
             System.out.println(e);
